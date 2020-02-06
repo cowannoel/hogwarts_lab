@@ -14,7 +14,7 @@
     <label for="house-select">Sorting Hat</label>
       <select id="house-select" name="house_id">
         <% for house in @houses%>
-        <option value="<%= house.id %>"><%= house.name %></option>
+          <option value="<%= house.id %>"><%= house.name %></option>
         <% end %>
       </select>
 
